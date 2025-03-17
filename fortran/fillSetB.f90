@@ -23,7 +23,7 @@ MODULE mod_fillset
                 ELSE
                     IF (i >= monomer(1) + 4*j+2 .AND.  i <= monomer(1) + 4*j + 3) THEN
                         k = k+1
-                        setB(k,n) = set(i,n) !# 4 parcequ'il ya 4 C pour un S dans un sycle 
+                        setB(k,n) = set(i,n) !# 4 parcequ'il ya 4 C pour un S dans un cycle 
                     ENDIF
                     j = j + 2
                     IF (i > monomer(1) + 4*m .AND. i<= monomer(1) + 4*(m+1)) THEN
